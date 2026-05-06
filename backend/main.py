@@ -13,9 +13,10 @@ app = FastAPI(title="Portfolio Backend API")
 allowed_origins = [
     "https://digital-resume-ruby.vercel.app",
     "https://digital-resume-pwtd.vercel.app",
+    "https://digital-resume-ruby-bhumika8982s-projects.vercel.app",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "http://localhost:5500", # Common Live Server port
+    "http://localhost:5500",
     "http://127.0.0.1:5500"
 ]
 
