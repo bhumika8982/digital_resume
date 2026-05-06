@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Bhumika Girhare, Computer Science Engineer and Python & Django Developer.">
+    <title>Bhumika Girhare | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Bhumika<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal-left">
+                    <p class="greeting">Hi, I am</p>
+                    <h1 class="name">Bhumika Girhare</h1>
+                    <h2 class="title">Computer Science Engineer | Python & Django Developer</h2>
+                    <p class="tagline">"Passionate about building efficient web applications and solving real-world problems"</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/bhumika-girhare-937944252" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/bhumika8982" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.hackerrank.com/profile/bhumikagirhare" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image reveal-right">
+                    <div class="blob-wrapper">
+                        <!-- Placeholder for user's image -->
+                        <div class="profile-placeholder">
+                            <span class="initials">BG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-bg">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content reveal-up">
+                    <div class="about-text">
+                        <p>Hello! I am an <strong>Enthusiastic CSE student</strong> with a strong passion for learning new technologies and problem-solving.</p>
+                        <p>I am highly skilled in <strong>Python, Django, HTML, CSS, and SQL</strong>. Over the course of my studies, I have honed my coding skills by solving <strong>50+ coding problems on HackerRank</strong> and consistently challenging myself to improve.</p>
+                        <p>My goal is to leverage my skills to build impactful and scalable software solutions.</p>
+                        <a href="assets/resume.pdf" download class="btn btn-secondary mt-3"><i class="fas fa-download"></i> Download Resume</a>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-code"></i>
+                            <h3>50+</h3>
+                            <p>Problems Solved</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-project-diagram"></i>
+                            <h3>5+</h3>
+                            <p>Projects Built</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container reveal-up">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cubes"></i> Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Django</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-sitemap"></i> Concepts</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Object-Oriented Programming (OOPs)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">PyCharm</span>
+                            <span class="skill-tag">Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-bg">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal-up">
+                        <div class="project-img-placeholder todo-bg">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech">
+                                <span>Django</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <h3>To-Do List App</h3>
+                            <ul class="project-features">
+                                <li>Django-based task manager</li>
+                                <li>Features: Add, update, delete, mark complete</li>
+                                <li>Clean and responsive UI</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/bhumika8982" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card reveal-up">
+                        <div class="project-img-placeholder expense-bg">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech">
+                                <span>Django</span>
+                                <span>Full-Stack</span>
+                            </div>
+                            <h3>Expense Tracker</h3>
+                            <ul class="project-features">
+                                <li>Full-stack Django project</li>
+                                <li>User authentication (login/signup)</li>
+                                <li>Personalized expense tracking</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/bhumika8982" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section id="achievements" class="achievements-certifications">
+            <div class="container">
+                <div class="grid-2-cols">
+                    <!-- Coding Profiles (HackerRank) -->
+                    <div class="hackerrank-section reveal-left">
+                        <div class="section-header">
+                            <h2 class="section-title">Coding Profiles</h2>
+                            <div class="divider-left"></div>
+                        </div>
+                        <div class="hr-card">
+                            <div class="hr-logo">
+                                <i class="fab fa-hackerrank"></i> HackerRank
+                            </div>
+                            <ul class="icon-list mt-3">
+                                <li>
+                                    <div class="icon-box"><i class="fas fa-star"></i></div>
+                                    <div>
+                                        <h4>5-Star Python Badge</h4>
+                                        <p>Expertise in Python programming</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-box"><i class="fas fa-certificate"></i></div>
+                                    <div>
+                                        <h4>HackerRank Certification</h4>
+                                        <p>Verified skills in problem solving</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-box"><i class="fas fa-code"></i></div>
+                                    <div>
+                                        <h4>50+ Problems Solved</h4>
+                                        <p>Consistent algorithm practice</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="https://www.hackerrank.com/profile/bhumikagirhare" target="_blank" class="btn btn-primary mt-3 w-100">
+                                View HackerRank Profile <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="certifications-section reveal-right">
+                        <div class="section-header">
+                            <h2 class="section-title">Certifications</h2>
+                            <div class="divider-left"></div>
+                        </div>
+                        <ul class="icon-list">
+                            <li>
+                                <div class="icon-box"><i class="fas fa-award"></i></div>
+                                <div>
+                                    <h4>Python for Data Science</h4>
+                                    <p>Coursera</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-box"><i class="fas fa-chart-bar"></i></div>
+                                <div>
+                                    <h4>Introduction to Data Analytics</h4>
+                                    <p>Completed Certificate</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-box"><i class="fas fa-file-excel"></i></div>
+                                <div>
+                                    <h4>Excel Basics for Data Analysis</h4>
+                                    <p>Completed Certificate</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-bg">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="timeline reveal-up">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - 2026</span>
+                            <h3>B.Tech in Computer Science</h3>
+                            <h4>IPS Academy, Indore</h4>
+                            <p class="cgpa">CGPA: 7.5</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2023</span>
+                            <h3>Diploma in Computer Science</h3>
+                            <h4>Govt. Polytechnic, Ujjain</h4>
+                            <p class="cgpa">CGPA: 7.8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-wrapper reveal-up">
+                    <div class="contact-info">
+                        <h3>Let's talk about everything!</h3>
+                        <p>Feel free to reach out to me for any questions or opportunities.</p>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:bhumikagirhare@gmail.com">bhumikagirhare@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+916260338982">+91 6260338982</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Indore, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" required placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">Bhumika<span>.</span></div>
+                <p>Computer Science Engineer | Python & Django Developer</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/bhumika-girhare-937944252" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/bhumika8982" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.hackerrank.com/profile/bhumikagirhare" target="_blank"><i class="fab fa-hackerrank"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bhumika Girhare. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
