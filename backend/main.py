@@ -11,6 +11,7 @@ app = FastAPI(title="Portfolio Backend API")
 
 # Configure CORS for frontend access
 allowed_origins = [
+    "https://bhumidigital.netlify.app",
     "https://digital-resume-ruby.vercel.app",
     "https://digital-resume-pwtd.vercel.app",
     "https://digital-resume-ruby-bhumika8982s-projects.vercel.app",
