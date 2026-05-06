@@ -139,7 +139,7 @@ if (contactForm) {
         submitBtn.disabled = true;
 
         try {
-            const response = await fetch('http://localhost:5000/api/contact/', {
+            const response = await fetch('https://digital-resume-pwtd-pe73fvi5y-bhumika8982s-projects.vercel.app/api/contact/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
