@@ -10,10 +10,18 @@ load_dotenv()
 app = FastAPI(title="Portfolio Backend API")
 
 # Configure CORS for frontend access
-frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
+allowed_origins = [
+    "https://digital-resume-ruby.vercel.app",
+    "https://digital-resume-pwtd.vercel.app",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:5500", # Common Live Server port
+    "http://127.0.0.1:5500"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_url, "http://localhost:3000"], # Allow production and local development
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
